@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 10;
+    height: 100vh;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* div - altura */
+}
+
+.tablas {
+    width: 100%; /* ancho */
+    height: 100%; /* altura */
+    max-width: 100%; /* lo ajusto a los bordes de la pantalla */
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.tabla1, .tabla2 {
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla1 {
+    background-color: rgb(177, 106, 13);
+}
+
+.tabla2 {
+    background-color: rgb(121, 5, 5);
+}

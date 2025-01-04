@@ -1,0 +1,73 @@
+<!DOCTYPE html> <!-- Define el tipo de documento -->
+
+<html lang="es"> <!-- Establece idioma de la página-->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace la página responsiva (se adapta a distintos dispositivos) -->
+    <title>Básicos</title>
+    <style> 
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif; /* Establece la fuente del cuerpo de la página */
+        }
+
+        .link1 {
+            text-align: center;
+        }
+
+        .link2 {
+            text-align: center;
+        }
+
+        .titulo {
+            text-align: center; /* Centra el texto */
+            font-size: 150px; /* Define el tamaño de la fuente del título */
+        }
+
+        .container {
+            display: flex; /* Utiliza Flexbox para organizar los elementos dentro de .container */
+            justify-content: center; /* Centra los elementos dentro del contenedor */
+            gap: 50px; /* Agrega un espacio de 50px entre los elementos */
+        }
+
+        .imagen1, .imagen2 {
+            width: 500px; /*  ancho  */
+            height: 300px; /* altura  */
+        }
+
+        .copyright {
+            font-family: monospace;
+            font-style: italic;
+            text-align: right;
+    }
+
+    </style>
+</head>
+
+<body style="background-color: rgb(255, 0, 123);">
+
+
+    <div class="titulo"> <!-- Crea un div para el título con la clase "titulo" -->
+        *Piscine Web*
+    </div>
+
+    <div class="container"> 
+        <a href="https://lockandloadmiami.com/">
+           <img class="imagen1" src="http://surl.li/qmkigt" alt="Imagen 1">
+           <h1 class="link1">
+            Link
+        </h1>
+        </a>
+        <a href="http://surl.li/piidjt">
+            <img class="imagen2" src="https://mma.prnewswire.com/media/2351026/4698627/logo.jpg?p=facebook" alt="Imagen 2">
+            <h1 class="link2">
+                Link
+            </h1>
+        </a>
+    </div> 
+    <hr>
+    <div class="copyright">
+    </span>©<span></span>2024</span></span>alandreu</span>
+    </div>
+</body>
+</html>

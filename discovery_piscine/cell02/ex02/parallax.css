@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.parallax {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    background-attachment: fixed; 
+}
+
+#section1 {
+    background-image: url('https://goo.su/t7Cozm');
+}
+
+#section3 {
+    background-image: url('https://goo.su/T9W29iY');
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.message h1 {
+    font-size: 1rem; /* Un rem equivale a 16px */
+}
+
+.negro {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    color: white;
+    font-size: 1rem;
+}
+
+.section-content {
+    background-color: black;
+    padding: 500px 20px;
+}
+
